@@ -7,7 +7,7 @@ Uses JavaScript to give users the ability to resize image and text without refre
 * [Example](#example)
 * [Running Included Example](#running-included-example)
 * [Testing](#testing)
-* [Author](#auther)
+* [Author](#author)
 
 ## Built With
 JavaScript
