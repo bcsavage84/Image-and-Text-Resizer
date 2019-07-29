@@ -1,4 +1,4 @@
-# Image-and-Text-Size-Changer
+# Image-and-Text-Resizer
 Uses JavaScript to give users the ability to resize image and text without refreshing the page.
 
 ## ToC
