@@ -1,0 +1,53 @@
+<html>
+<body>
+<h1>Example Showing Image and Text Size Changer</h1>
+
+<h2>Override</h2>
+<input type="number" name="OverrideChanger" id="OverrideChanger" value="16">
+<input type="button" value="Text and Image Size" onclick="ElementSizeChanger('override', 'OverrideChanger')">
+<br><br>
+------------------
+<br>
+<h2>Text resize</h2>
+<input type="number" name="TextChanger" id="TextChanger" value="16">
+<input type="button" value="Text Size" onclick="ElementSizeChanger('text', 'TextChanger')">
+
+<p class="text override">
+This code will allow developers to add image and text resizing to elements on their website. Users will be able to change the size of various elements in the website with ease.
+<br><br>
+Text size changing only works with the p tag but you can target a div and change the size of all p tags inside of it. So, you can target a div or individual p tags if you want.
+<br><br>
+The rules for images are similar to text.
+</p>
+
+<div class="text override">
+	<p>
+	To use this you will need some way to run the ElementSizeChanger function.
+	<br>
+	The ElementSizeChanger function takes three parameters: element_class_name, element_id_with_number_value, upper_lower_limit_array.
+	<br><br>
+	Example: ElementSizeChanger('text', 'TextChanger', [10, 900])
+	<br><br>
+	Multiple input boxes can control a single element so an override input is possible.
+	<br>
+	For instance, a user could remove all description text from an article list by changing the text size to 0 so nothing but the headlines show by using the override.
+	<br><br>
+	Then increase the individual articles they like using the text size changer next to it.
+	</p>
+</div>
+
+<ul>
+	<li>Images uses px</li>
+	<li>Text uses pt</li>
+</ul>
+
+<br>
+<h2>Image resize</h2>
+<input type="number" name="ImgChanger" id="ImgChanger" value="16">
+<input type="button" value="Img Size" onclick="ElementSizeChanger('img', 'ImgChanger')">
+<br>
+<img src="http://bsava.wiotm.com/imgs/sailAround.jpg" class="img override" width="200px" height="auto">
+
+<script type="text/javascript" src="ElementSizeChanger.js"></script>
+</body>
+</html>
